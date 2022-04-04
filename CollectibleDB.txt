@@ -1,2 +1,5 @@
 1,Marvel Spider Man Vol 2,1200.0
 2,BhagwatGita,1500.0
+3,First Gen Macbook,74000.0
+4,First Edition of Ann Fank,46000.0
+5,1679 silver coin,179000.0
