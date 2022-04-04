@@ -3,3 +3,4 @@
 3,First Gen Macbook,74000.0
 4,First Edition of Ann Fank,46000.0
 5,1679 silver coin,179000.0
+6,Rare Mustange Car,300000.0
