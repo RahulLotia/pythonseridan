@@ -11,7 +11,7 @@ class CollectibleManager:
         try:
             cID = int(input("Enter Collectible ID : "))
             cName = input("Enter Collectible Name : ")
-            cPrice = float(input("Enter Estimated price : "))
+            cPrice = float(input("Enter Estimated $ price : "))
 
             collectibleFile = open(CollectibleManager.S_FILE_NAME, "a") 
 
