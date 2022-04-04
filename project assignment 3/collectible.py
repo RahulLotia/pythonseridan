@@ -26,8 +26,7 @@ class CollectibleManager:
         except:
             print('Something went wrong. Sorry for incovenience.')
         finally:
-            collectibleFile.close()
-        
+            collectibleFile.close()        
 
     @staticmethod
     def editCollectible():
@@ -122,7 +121,7 @@ class CollectibleManager:
             allcollectible = collectibleFile.readlines()
 
             if len(allcollectible) > 0:
-                idToDelete = int(input("Enter product ID to delete : "))
+                idToDelete = int(input("Enter Collectible ID to delete : "))
 
                 found = False
 

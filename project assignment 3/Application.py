@@ -5,15 +5,20 @@ class Application:
         if operation == 1:
             print("Adding new Collectible")
             CollectibleManager.addCollectible()
+            print ("Collectible Added")
+
         elif operation == 2:
             print("Editing Collectible")
             CollectibleManager.editCollectible()
+            print("Collectible edited")
         elif operation == 3:
             print("Searching for Collectible")
             CollectibleManager.searchCollectible()
+            print ("Collectible Searched")
         elif operation == 4:
             print("Deleting Collectible")
             CollectibleManager.deleteCollectible()
+            print("Collectible Deleted")
         elif operation == 5:
             print("Displaying all Collectibles")
             CollectibleManager.displayCollectible()
